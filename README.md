@@ -21,9 +21,9 @@ to test. No exploitation, dumping, or credential extraction is performed.
 
 ## Installation (Termux)
 ```bash
-pkg update && pkg upgrade -y
+pkg update && pkg upgrade -yhttps://github.com/limbubib710-arch/sqlmap.git
 pkg install python git -y
-git clone https://github.com/YOUR_USER/sqlmap-x-ultimate
-cd sqlmap-x-ultimate
+git clone 
+cd sqlmap
 pip install -r requirements.txt
 python sqlmap.py
